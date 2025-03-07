@@ -1,0 +1,37 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.badge {
+  font-size: 12px;
+  background-color: var(--gray-500);
+  color: var(--white);
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin: 4px;
+}
+
+.active {
+  background-color: var(--gray-400);
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.titleCreatedTasks {
+  cursor: pointer;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.titleFinishedTasks {
+  cursor: pointer;
+  color: var(--purple);
+  font-weight: 700;
+}
+
+hr {
+  border: 1px solid var(--gray-500);
+  margin: 16px 0;
+}

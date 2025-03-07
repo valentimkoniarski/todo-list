@@ -1,0 +1,30 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+}
+
+.content input {
+  height: 44px;
+  width: 736px;
+  background-color: var(--gray-500);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+}
+
+.content button {
+  height: 44px;
+  width: 100px;
+  background-color: var(--blue-dark);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.content button:hover {
+  background-color: var(--blue);
+}
